@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0 ;
+}
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)), url(backn.jpg);
+	background-repeat: no-repeat;
+	background-size: 1370px 800px;
+	background-position: center;
+
+}
+
+.back2 {
+	background-image: url(pic0.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: 900px 500px;
+	background-position: center;
+}
+
+.title h2{
+	color: black;
+	font-size: 20px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 18%;
+  	top: 11%;
+  	
+  	transform: rotate(0deg);
+}
+
+.title h3{
+	color: white;
+	font-size: 25px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 10%;
+  	top: 50%;
+  	transform: rotate(270deg);
+}
+
+.title h4{
+	color: white;
+	font-size: 25px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 9%;
+  	top: 50%;
+  	transform: rotate(270deg);
+}
+
+.title h5{
+	color: black;
+	font-size: 40px;
+	font-family: Alfa Slab One;
+	position: absolute;
+  	left: 37.5%;
+  	top: 8.4%;
+  }
+
+.sub_title label{
+	color: white;
+	font-size: 20px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 56%;
+  	top: 50%;
+}
+
+.sub_title input{
+	border-radius: 12px;
+	color: black;
+	width: 30%;
+	font-size: 20px;
+	position: absolute;
+  	left: 50%;
+  	top: 58%;
+}
+
+.sub_title2 input{
+	border-radius: 12px;
+	color: black;
+	width: 30%;
+	font-size: 20px;
+	position: absolute;
+  	left: 50%;
+  	top: 64%;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+:-moz-placeholder {
+  text-align: center;
+}
+
+.sub_title button{
+	background-color: rgb(0, 245, 224);
+	border-radius: 12px;
+	color: black;
+	width: 30%;
+	font-size: 16px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 50%;
+  	top: 70%;
+  	transition: 1s;
+
+  	box-shadow: 0 5px #999;
+}
+
+.sub_title button:hover {
+	background-color: rgb(2, 155, 142);
+	color : black;
+	transition: 1s;
+}
+
+
+.sub_title button:active {
+	background-color: #3e8e41;
+  	box-shadow: 0 5px #666;
+  	transform: translateX(4px);
+}
+
+.password_visibility {
+	position: absolute;
+	left: 78.5%;
+	top: 65%;
+}
+
+.password_visibility {
+	position: absolute;
+	left: 78.5%;
+	top: 65%;
+}
+.password_visibility2 {
+	position: absolute;
+	left: 78.5%;
+	bottom: 50.5%;
+}
+.register_button button{
+	background-color: rgb(255, 0, 76);
+	border-radius: 12px;
+	color: white;
+	width: 30%;
+	font-size: 16px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 50%;
+  	top: 80%;
+  	transition: 1s;
+  	box-shadow: 0 5px #999;
+}
+
+.register_button2 button{
+	background-color: rgb(255, 0, 76);
+	border-radius: 12px;
+	color: white;
+	width: 30%;
+	font-size: 16px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 50%;
+  	top: 65%;
+  	transition: 1s;
+  	box-shadow: 0 5px #999;
+}
+
+
+.register_page input{
+	border-radius: 12px;
+	color: black;
+	width: 30%;
+	font-size: 20px;
+	position: absolute;
+  	left: 50%;
+  	top: 40%;
+}
+
+
+
+.register_page2 input{
+	border-radius: 12px;
+	color: black;
+	width: 30%;
+	font-size: 20px;
+	position: absolute;
+  	left: 50%;
+  	top: 46%;
+}
+
+.register_page3 input{
+	border-radius: 12px;
+	color: black;
+	width: 30%;
+	font-size: 20px;
+	position: absolute;
+  	left: 50%;
+  	top: 58%;
+}
+
+.register_page_firstname{
+	border-radius: 12px;
+	color: black;
+	width: 30%;
+	font-size: 20px;
+	position: absolute;
+  	left: 50%;
+  	top: 35%;
+}
+
+.register_page_lastname{
+	border-radius: 15px;
+	color: black;
+	width: 30%;
+	font-size: 20px;
+	position: absolute;
+  	left: 67.5%;
+  	top: 35%;
+}
+
+.register_button button:hover {
+	background-color: rgb(207, 0, 62);
+	color : white;
+	transition: 1s;
+}
+
+
+.register_button button:active {
+	background-color: #3e8e41;
+  	box-shadow: 0 5px #666;
+  	transform: translateX(4px);
+}
+
+.shape {
+	height: 50px;
+  	width: 65.8%;
+  	background-color: white;
+  	position: absolute;
+  	left: 17.05%;
+  	top: 8.8%;
+
+}
+
+.shape2 {
+	height: 20px;
+  	width: 20px;
+  	background-color: #FDD700;
+  	position: absolute;
+  	left: 80%;
+  	top: 11%;
+  	border-radius: 50%;
+}
+
+.shape3 {
+	height: 20px;
+  	width: 20px;
+  	background-color: #FD0086;
+  	position: absolute;
+  	left: 78%;
+  	top: 11%;
+  	border-radius: 50%;
+}
+
+.shape4 {
+	height: 20px;
+  	width: 20px;
+  	background-color: #1CE2DC;
+  	position: absolute;
+  	left: 76%;
+  	top: 11%;
+  	border-radius: 50%;
+}

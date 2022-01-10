@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sprint 2 Portfolio Website	</title>
+	<link rel="stylesheet"	href=" {{ url_for('static', filename = 'Sprint2.css')}}">
+</head>
+<body >
+	<header>
+		<div class="back2">
+			<div class="shape"></div>
+			<div class="shape2"></div>
+			<div class="shape3"></div>
+			<div class="shape4"></div>
+			<div class="title">
+				<script>
+					function myFunction() {
+ 						window.alert("Your Name will be Saved");
+					}
+                </script>
+                <h2 id="demo"> Registration Form </h2>	
+            </div> 
+            <form action="/check_email" method="POST">
+                <fieldset class="form-group">
+                    <div class="register_button2">
+                        <div class="register_page_firstname">
+                            <input type="text" placeholder="First Name" name="firstname" >
+                        </div>
+                        <div class="register_page_lastname">
+                            {% if form.email.errors %}
+                            {{ form.email(class="form-control form-control-lg is-invalid") }}
+                            <div class="invalid-feedback">
+                                {% for error  in form.email.errors %}
+                                    <span> {{ error }}   </span>
+                                {% endfor %}
+                            </div>
+                            {% else %}
+                                <input type="text" placeholder="Last Name" name="lastname">
+                            {% endif %} 
+                        </div>
+                        <div class="register_page">
+                            <input type="text" placeholder="Email" name="email">
+                        </div>
+                        <div class="register_page2">
+                            <input type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="password" id="myInput">
+                        </div>
+                        <div class="register_page3">
+                            <input type="password" placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="password" id="myInput2" >
+                            <script>
+                                function myFunction() {
+                                    var x = document.getElementById("myInput");
+                                    if (x.type === "password") {
+                                        x.type = "text";
+                                    } else {
+                                        x.type = "password";
+                                    }
+                                    var y = document.getElementById("myInput2");
+                                    if (y.type === "password") {
+                                        y.type = "text";
+                                    } else {
+                                        y.type = "password";
+                                    }
+                                }
+                            </script>
+                        </div>
+                        <div class="password_visibility2"> 
+                            <input type="checkbox" onclick="myFunction()">
+                        </div>
+                        <button type="submit" >Register</button>
+                    </div>
+                </fieldset>    
+            </form>
+            </div>
+        </div>
+    </header>
+</body>
+</html>    

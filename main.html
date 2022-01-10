@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sprint 2 & 3 Portfolio Website	</title>
+	<link rel="stylesheet"	href=" {{ url_for('static', filename = '2ndpage.css')}}">
+</head>
+<body >
+	<header>
+		<div class="back2">
+			<div class="shape"></div>
+			<div class="shape2"></div>
+			<div class="shape3"></div>
+			<div class="shape4"></div>
+			<div class="title">
+				<script>
+					function myFunction() {
+ 						window.alert("Your Name will be Saved");
+						 
+					}
+
+					function myFunction2() {
+ 						window.alert("You will be logged out");
+						window.location.href='http://localhost:5000/logout'
+					}
+				</script>
+				<h2 id="demo"> Hello!
+					
+				
+					</h2>	
+                                <h1 > Get to know me!  </h2>	
+				<img src="{{ url_for('static', filename='leftpic.jpg')}}" alt="Portfoliopic">
+                <img src="{{ url_for('static', filename='pic.jpg')}}" alt="Portfoliopic" class="mypic">
+			</div>
+			<div class="button_logout">
+				<form action="/logout" method="POST"></form>
+					<button onclick="myFunction2()" type="submit" onclick="myFunction2()"> Log out </button>
+			</div>
+			<form>
+				<div class="sub_title"> 
+				        <button type="button" onclick="myFunction()"><pre>P o r t f o l i o</pre></button>
+				</div>
+				<div class="sub_title2"> 
+				<button type="button" onclick="myFunction()"><pre>A B O U T  M E</pre></button>
+				</div>
+			</form>
+		</div>
+	</header> 
+</body>	
+</html>	  
+

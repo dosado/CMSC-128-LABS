@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0 ;
+}
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)), url(backn.jpg);
+	background-repeat: no-repeat;
+	background-size: 1370px 800px;
+	background-position: center;
+
+}
+
+.back2 {
+	background-image: url(black.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: 560px 380px;
+	background-position: center;
+}
+
+.title h2{
+	color: black;
+	font-size: 20px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 38%;
+  	top: 11%;
+  	transform: rotate(0deg);
+}
+
+.title h3{
+  color: white;
+  font-size: 20px;
+  font-family: Courier New;
+  position: absolute;
+  left: 42%;
+  top: 11%;
+  transform: rotate(0deg);
+}
+
+.title h1{
+	color: white;
+	font-size: 25px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 41%;
+  	top: 2%;
+  	transform: rotate(0deg);
+}
+
+.title h4{
+	color: white;
+	font-size: 25px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 25%;
+  	top: 80%;
+  	transform: rotate(0deg);
+}
+
+.title h5{
+	color: black;
+	font-size: 40px;
+	font-family: Alfa Slab One;
+	position: absolute;
+  	left: 58%;
+  	top: 8.4%;
+  }
+
+.sub_title label{
+	color: white;
+	font-size: 20px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 56%;
+  	top: 50%;
+}
+
+img {
+    border: transparent;
+    height: 423px;
+    width: 280px;
+    position: absolute;
+    left: 29.5%;
+    top: 16.8%;
+}
+
+.mypic {
+    border: transparent;
+    height: 540px;
+    width: 450px;
+    position: absolute;
+    left: 44%;
+    top: -1.5%;
+    clip: rect(120px,362px,1000px,82px);
+}
+
+.sub_title button{
+	background-color:  black;
+	padding-top: 25%;
+	color: white;
+    height: 64.3%;
+	width: 20.6%;
+	font-size: 25px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 29.5%;
+  	top: 16.5%;
+    opacity: 0.3;
+  	transition: 1s;
+
+}
+
+.sub_title2 button{
+	background-color: black;
+	padding-top: 25%;
+	color: white;
+    height: 64%;
+	width: 20.6%;
+	font-size: 25px;
+	font-family: Courier New;
+	position: absolute;
+  	left: 50%;
+  	top: 16.6%;
+    opacity: 0.5;
+  	transition: 1s;
+
+}
+
+.sub_title button:hover {
+	background-color: black;
+	color : white;
+    opacity: 0.8;
+	transition: 1s;
+}
+.sub_title2 button:hover {
+	background-color: black;
+	color : white;
+	transition: 1s;
+    opacity: 0.8;
+}
+
+
+.sub_title button:active {
+	background-color: #3e8e41;
+  	box-shadow: 0 5px #666;
+  	transform: translateX(4px);
+}
+
+.shape {
+	height: 50px;
+  	width: 41%;
+  	background-color: white;
+  	position: absolute;
+  	left: 29.5%;
+  	top: 9%;
+
+}
+
+.shape2 {
+	height: 20px;
+  	width: 20px;
+  	background-color: #FDD700;
+  	position: absolute;
+  	left: 68%;
+  	top: 11%;
+  	border-radius: 50%;
+}
+
+.shape3 {
+	height: 20px;
+  	width: 20px;
+  	background-color: #FD0086;
+  	position: absolute;
+  	left: 66%;
+  	top: 11%;
+  	border-radius: 50%;
+}
+
+.shape4 {
+	height: 20px;
+  	width: 20px;
+  	background-color: #1CE2DC;
+  	position: absolute;
+  	left: 64%;
+  	top: 11%;
+  	border-radius: 50%;
+}
+
+.button_logout button{
+	color : white;
+	padding: 10px 27px;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	left: 1160px;
+	top: 590px;
+	background-color: transparent;
+	font-size: 25px;
+	font-family: Courier New;
+    opacity: 0.5;
+  	transition: 1s;
+}
+
+.button_logout button:hover {
+	background-color: black;
+	color : white;
+    opacity: 0.8;
+	transition: 1s;
+}
+
+.button_logout button:active {
+	background-color: black;
+  	box-shadow: 0 5px #666;
+  	transform: translateX(4px);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sprint 2 Portfolio Website	</title>
+	<link rel="stylesheet"	href=" {{ url_for('static', filename = 'Sprint2.css')}}">
+</head>
+<body >
+	<header>
+		<div class="back2">
+			<div class="shape"></div>
+			<div class="shape2"></div>
+			<div class="shape3"></div>
+			<div class="shape4"></div>
+			<div class="title">
+				<script>
+					function myFunction() {
+ 						window.alert("Your Name will be Saved");
+					}
+				</script>
+				<h2 id="demo"> Michael Vincent Dosado </h2>	
+				<h5> ; </h5>
+				<h3 > Young Programmer </h3>
+				<h4 > Entrepreneur </h4>
+			</div>
+			<form action="/add" method="POST">
+				<div class="sub_title"> 
+					<label> Let us know each other! </label>
+					<input type="text" placeholder="Username" name = "username">
+					<button type="submit" onclick="myFunction()">Log in</button>
+				</div>
+				<div class="sub_title2"> 
+					<input type="password" placeholder="Password" name = "password" id="myInput">
+					<script>
+						function myFunction() {
+							var x = document.getElementById("myInput");
+							if (x.type === "password") {
+								x.type = "text";
+							} else {
+								x.type = "password";
+							}
+						}
+					</script>
+				</div>
+				<div class="password_visibility"> 
+					<input type="checkbox" onclick="myFunction()">
+				</div>
+			</form>
+			<form action="/register" method="POST">
+				<div class="register_button">
+					<button	type="submit" >Register</button>
+				</div>
+		</div>
+	</header> 
+</body>	
+</html>	  
+
